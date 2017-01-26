@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+
+  "name": "Auto-pair",
+  "description": "This extensions allows to automatically add pair of characters at the beginning and end of selected text.",
+  "version": "1.0",
+   "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["bg.js"]
+    }
+  ]
+}
